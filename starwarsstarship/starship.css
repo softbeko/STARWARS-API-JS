@@ -1,0 +1,75 @@
+body{
+        
+    background: url("https://wallpaperaccess.com/full/6794123.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    text-align: -webkit-center;
+        font-family: 'Martian Mono', monospace;
+    }
+.card{
+    margin-top: 5%;
+    width: 16rem;
+    opacity: 0.7;
+  
+}
+
+.card-body{
+    background: black;
+    filter: drop-shadow(12px 17px 33px black);
+    height: 70px;
+}.card-body:hover{
+    background: black;
+    filter: drop-shadow(12px 17px 33px red);
+   
+}
+.btn{
+    color: white;
+    background: none;
+}
+.btn:hover{
+color: red;
+}
+
+.alert {
+    left: 25%;
+    padding: 20px;
+    background-color: #250300;
+    color: white;
+    width: 50%;
+    margin-top: 5%;
+    position: fixed;
+    z-index: 1;
+    filter: drop-shadow(-2px 7px 23px white);
+
+display: none;
+
+  }
+  
+  .closebtn {
+    border-radius: 29px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-width: 1px;
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-style: solid;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+  .alertInfo{
+    font-size: 15px;
+    opacity: 0.4;
+    font-family: sans-serif;
+
+  }
